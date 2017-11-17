@@ -26,5 +26,5 @@ puts house.values.first.size
 
 # # Question 5 - Get the URL for the photo of one representative into a variable.
 array = house["objects"]
-photo = array.first["photo_url"]
+# photo = array.first["photo_url"] this will allows us to take the value from the photo-url key
 puts photo
